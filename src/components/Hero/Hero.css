@@ -1,0 +1,13 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__photo img{
+    width: 400px;
+    height: auto;
+    border-style: solid;
+    border-radius: 5px 20px 5px;
+}
+
