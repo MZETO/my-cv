@@ -1,26 +1,16 @@
 export const CV = {
     hero: {
       name: "Daniel Martínez Ramírez",
-      adress: "Calle Río Segre 2, 9D",
+      title: "Desarrollador FRONT-END 💻🚀",
       city: "Móstoles - Madrid",
       email: "dani.martinez@tutanota.com",
-      birthDate: "25/06/1995",
+      birthday: "25/06/1995",
       image: "https://i.imgur.com/ajZNMlu.jpg",
-      gitHub: "https://github.com/MZETO",
-      aboutMe: [
-        {
-          info: "Desarrollador FRONT-END 💻🚀",
-        },
-        {
-          info: "Entusiasta de lo videojuegos 🎮 y el cine 📽🎞",
-        },
-        {
-          info: "Y... ¡estas son mis armas!",
-        },
-        {
-          info: "https://skills.thijs.gg/icons?i=html,css,js,angular,react,git",
-        },
-      ],
+      github: "https://github.com/MZETO",
+      linkedin: "www.linkedin.com/in/dmr1995",
+      coute1: "Entusiasta de lo videojuegos 🎮 y el cine 📽🎞",
+      coute2: "Y... ¡estas son mis armas!"
+ 
     },
     education: [
       {
