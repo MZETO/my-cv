@@ -16,8 +16,6 @@ function App() {
 
       <Hero hero={hero}/>
 
-      <About hero={hero}/>
-
       <div className="buttons">
         <button onClick={() => setShowExperience(true)}>
           EXPERIENCIA
@@ -32,9 +30,11 @@ function App() {
         {showExperience ? (<Experience experience={experience}/>) : (<Education education={education}/>)}
       </div>
 
+      <About hero={hero}/>
+
       <More 
-        languages={languages}
         habilities={habilities}
+        languages={languages}
       />
       
     </div>
