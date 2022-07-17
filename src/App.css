@@ -2,10 +2,62 @@
 
 *{
     font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+html, body {
+
+  background: #bbb5ad;
+  margin: 20px;
+  color: #3e4144;
+  -webkit-font-smoothing: antialiased;
+}
+
+dd {
+  font-weight: bold;
+}
+
+button {
+  background-color: black;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: #616163;
+}
+
+button:focus{
+  outline: none;
+}
+
+.p-1 {
+  padding: 1px;
 }
 
 .buttons {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+}
+
+.buttons button {
+    background-color: #274C77;
+    border: 1px solid #E7ECEF;
+    padding: 20px;
+}
+
+.buttons button:hover {
+    background-color: #E7ECEF;
+    border: 1px solid #274C77;
+    color: #3e4144;
 }
