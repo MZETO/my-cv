@@ -7,10 +7,7 @@ export const CV = {
       birthday: "25/06/1995",
       image: "https://i.imgur.com/ajZNMlu.jpg",
       github: "https://github.com/MZETO",
-      linkedin: "www.linkedin.com/in/dmr1995",
-      coute1: "Entusiasta de lo videojuegos 🎮 y el cine 📽🎞",
-      coute2: "Y... ¡estas son mis armas!"
- 
+      linkedin: "https://www.linkedin.com/in/dmr1995",
     },
     education: [
       {
