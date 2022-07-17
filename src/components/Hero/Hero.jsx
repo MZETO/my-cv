@@ -29,10 +29,10 @@ const Hero = ({ hero }) => {
 
            <div className="hero__logos">
                <a href={hero.github}>
-                   <img src="https://img.icons8.com/material-rounded/48/000000/github.png" alt="gitHub"></img>
+                   <img className="hero__logo01" src="https://img.icons8.com/material-rounded/48/000000/github.png" alt="gitHub"></img>
                </a>
                <a href={hero.linkedin}>
-                   <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="gitHub"></img>
+                   <img className="hero__logo02" src="https://img.icons8.com/color/48/000000/linkedin.png" alt="gitHub"></img>
                </a>
 
            </div>

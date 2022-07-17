@@ -4,14 +4,14 @@ import "./Education.css";
 const Education = ({ education }) => {
     return (
         <div className="education">
-            <h1>EDUCACIÓN</h1>
-            <div className="education__card">
+            <h1>{"<"} EDUCACIÓN {"/>"}</h1>
+            <div className="education__container">
                 {education.map((item) => {
                     return (
-                        <div key={JSON.stringify(item)}>
-                            <h3 className="education__name">🎓 {item.name}</h3>
+                        <div className="education__card" key={JSON.stringify(item)}>
+                            <h2 className="education__name">🎓 {item.name}</h2>
                             <p>{item.date}</p>
-                            <h5>{item.where}</h5>
+                            <h3>{item.where}</h3>
                         </div>
                     );
                 })}

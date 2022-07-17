@@ -1,5 +1,28 @@
 .education {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.education h1 {
+  text-shadow: 7px 4px 5px white;
+}
+
+.education__container {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: rgba(240, 248, 255, 0.241);
+}
+
+.education__card {
+  text-align: center;
+  padding: 10px;
+}
+
+.education__name {
+  font-size: 20px;
 }
