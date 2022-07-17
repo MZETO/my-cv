@@ -9,6 +9,12 @@ export const CV = {
       github: "https://github.com/MZETO",
       linkedin: "https://www.linkedin.com/in/dmr1995",
     },
+    aboutme: {
+      cuote1: "Mis tecnologías preferidas son Vanilla JavaScript y REACT",
+      cuote2: "¡También controlo de sistemas! 🖥, sobre todo de Linux",
+      cuote3: "Y... mis aficiones son los videojuegos 🕹, el cine 🎥 y el deporte 🏋️‍♀️",
+      cuote4: "Eso no es todo... mis armas son..."  
+    },
     education: [
       {
         name: "BOOTCAMP de desarrollador FRONT-END",
