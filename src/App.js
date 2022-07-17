@@ -4,7 +4,7 @@ import { Hero, About, Education, Experience, More } from "./components";
 import { CV } from "./CV/CV";
 
 /* Hacemos destructuring para facilitar el acceso a las propiedades de CV.js */
-const { hero, education, experience, languages, habilities } = CV;
+const { hero, aboutme, education, experience, languages, habilities } = CV;
 
 function App() {
   
@@ -15,6 +15,8 @@ function App() {
     <div className="App">
 
       <Hero hero={hero}/>
+
+      <About aboutme={aboutme}/>
 
       <div className="buttons">
         <button onClick={() => setShowExperience(true)}>
@@ -29,8 +31,6 @@ function App() {
       <div>
         {showExperience ? (<Experience experience={experience}/>) : (<Education education={education}/>)}
       </div>
-
-      <About hero={hero}/>
 
       <More 
         habilities={habilities}
