@@ -10,7 +10,7 @@ const About = ({ aboutme }) => {
                 <p>{aboutme.cuote2}</p>
                 <p>{aboutme.cuote3}</p>
                 <h2>{aboutme.cuote4}</h2>            
-                <img src="https://skills.thijs.gg/icons?i=html,css,js,angular,react,git" alt="techs"></img>
+                <img src="https://skills.thijs.gg/icons?i=html,css,sass,js,typescript,angular,react,git,nodejs,linux" alt="techs"></img>
             </div>
         </div>
     );
