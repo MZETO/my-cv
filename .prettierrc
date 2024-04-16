@@ -1,0 +1,19 @@
+{
+  "semi": true,
+  "arrowParens": "avoid",
+  "singleQuote": true,
+  "useTabs": true,
+  "printWidth": 140,
+  "overrides": [
+    {
+      "files": [
+        "*.js",
+        "*.jsx"
+      ],
+      "options": {
+        "semi": true
+      }
+    }
+  ],
+  "endOfLine": "auto"
+}

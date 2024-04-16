@@ -1,0 +1,3 @@
+*.jsx text eolf=lf
+*.js text eolf=lf
+*.less text eolf=lf 
