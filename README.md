@@ -1,11 +1,12 @@
-# MY-CV
+# my-cv
 
-This is my actual CV, made with the following stack:
+This is my actual CV, made with the following stack...
 
 - React 18
 - vanilla CS3
 - ES6 features
-- jest + react-testing-library
+
+To create this project, I used the template from this repo --> https://github.com/MZETO/react-project-template
 
 ## Available Scripts
 
@@ -19,10 +20,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -31,12 +28,20 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-### `npm run eject`
+### `npm test`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Launches the test runner in the interactive watch mode.\
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm lint`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Launches lint errors diagnosis in the console.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `npm lint-fix`
+
+Fix all fixable lint errors showed in console.
+
+### `npm format`
+
+Fix all typo, identation, etc... errors in auto mode.
+
+I recommend to use VS code extension to extend some features.
